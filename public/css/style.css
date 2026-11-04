@@ -1,0 +1,284 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#fff7f8;
+    color:#555;
+    line-height:1.6;
+}
+
+/* CONTAINER */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#f8c8d2,#f4b6c2);
+    color:white;
+    padding:25px;
+    border-radius:0 0 15px 15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+header h1{
+    color:white;
+    font-size:38px;
+}
+
+/* MENU */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    background:#e8a0bf;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+    margin-right:8px;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:#d989ad;
+}
+
+/* CARD */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.08);
+}
+
+/* JUDUL */
+h1,h2,h3{
+    color:#c76b98;
+    margin-bottom:15px;
+}
+
+/* BUTTON */
+button,
+.btn{
+    background:#e8a0bf;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover,
+.btn:hover{
+    background:#d989ad;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+table th{
+    background:#e8a0bf;
+    color:white;
+}
+
+table th,
+table td{
+    padding:12px;
+    border:1px solid #eee;
+    text-align:center;
+}
+
+table tr:hover{
+    background:#fff0f5;
+}
+
+/* EDIT DAN DELETE */
+.edit{
+    color:#8e44ad;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.delete{
+    color:#e74c3c;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* LOGIN */
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#fbd5df,#f8c8d2);
+}
+
+.login-card{
+    width:380px;
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.login-card h2{
+    text-align:center;
+    color:#c76b98;
+    margin-bottom:20px;
+}
+
+.login-card label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#666;
+}
+
+.login-card input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.login-card button{
+    width:100%;
+    font-size:16px;
+}
+
+.login-text{
+    text-align:center;
+    margin-top:15px;
+    color:#c76b98;
+}
+
+/* TOP MENU */
+.top-menu{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.top-menu a{
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    margin:5px;
+    display:inline-block;
+}
+
+.btn-add{
+    background:#f39ab7;
+}
+
+.btn-add:hover{
+    background:#ea7ea4;
+}
+
+.btn-logout{
+    background:#ff7b9c;
+}
+
+.btn-logout:hover{
+    background:#f05f87;
+}
+
+/* DESKRIPSI */
+.deskripsi{
+    text-align:center;
+    margin-top:30px;
+    color:#c76b98;
+    font-size:22px;
+}
+
+/* FOOTER */
+footer{
+    background:#f4b6c2;
+    color:white;
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+    margin-top:30px;
+}
+
+
+.btn-add{
+    background:#ff69b4;
+    color:white !important;
+    font-weight:bold;
+}
+
+.btn-add:hover{
+    background:#e754a2;
+}
+
+.btn-logout{
+    background:#ff4d6d;
+    color:white !important;
+    font-weight:bold;
+}
+
+.btn-logout:hover{
+    background:#e6395c;
+}
+
+
+
+.add-btn{
+    background:#c77dff;
+    color:white !important;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.add-btn:hover{
+    background:#a855f7;
+}
+
+.logout-btn{
+    background:#ff4d8d;
+    color:white !important;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.logout-btn:hover{
+    background:#e11d74;
+}
+
+.top-menu{
+    text-align:center;
+    margin:20px 0;
+}
+
+.top-menu a{
+    margin:0 10px;
+}
