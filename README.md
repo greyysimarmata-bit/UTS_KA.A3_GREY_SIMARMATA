@@ -1,6 +1,8 @@
-🌸 MVC Flora
+ MVC GREY SIMARMATA
+
+NIM:2521004
 Deskripsi Project
-MVC Flora adalah aplikasi toko bunga sederhana berbasis PHP Native yang menggunakan konsep MVC (Model View Controller). Aplikasi ini digunakan untuk mengelola data produk bunga dengan sistem login admin dan database MySQL.
+MVC GREY SIMARMATA adalah aplikasi toko bunga sederhana berbasis PHP Native yang menggunakan konsep MVC (Model View Controller). Aplikasi ini digunakan untuk mengelola data produk bunga dengan sistem login admin dan database MySQL.
 
 Fitur Aplikasi
 ✅ Login Admin
@@ -68,7 +70,7 @@ Daftar Produk
 Tambah Produk
 Edit Produk
 Hapus Produk
-Project MVC Flora
+Project MVC GREY
 Aplikasi ini dibuat sebagai contoh implementasi MVC menggunakan PHP Native dan database MySQL untuk pengelolaan produk toko bunga.
 
-© 2026 MVC Flora
+© 2026 MVC GREY
